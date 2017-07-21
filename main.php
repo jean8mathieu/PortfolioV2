@@ -80,7 +80,12 @@ include ("data.php");
                 <h4><?=$d['sub_title']?></h4>
                 <p><?=$d['description']?></p>
                 <?php if(strlen($d['link']) > 0){ ?>
-                <a class="btn btn-primary" href="<?=$d['link']?>" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    <p><a class="btn btn-primary" href="<?=$d['link']?>" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a></p>
+                <?php } ?>
+
+                <?php
+                if(strlen($d['github']) > 0){ ?>
+                    <p><a class="btn btn-primary" href="<?=$d['github']?>" target="_blank">View Source Code <span class="glyphicon glyphicon-console"></span></a></p>
                 <?php } ?>
             </div>
         </div>
