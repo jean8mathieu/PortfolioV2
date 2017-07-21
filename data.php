@@ -25,7 +25,19 @@ $data = array(
                 <li>800k+ Registered Users</li>
                 <li>And much more!</li>
              </ul>",
+        'github' => '',
         'link' => 'http://truckersmp.com/'],
+    [
+        'title' => 'JMDev Portfolio',
+        'sub_title' => 'HTML, CSS, JQuery and PHP' ,
+        'picture' => 'img/Portfolio.PNG',
+        'description' =>
+            "<ul>
+                <li>Displaying my project</li>
+                <li>Having an array to display my project</li>
+             </ul>",
+        'github' => 'https://github.com/jean8mathieu/PortfolioV2',
+        'link' => 'http://jmdev.ca/'],
     [
         'title' => 'Soulfx',
         'sub_title' => 'HTML and CSS' ,
@@ -35,6 +47,7 @@ $data = array(
                 <li>Creating a HTML template from a PSD file</li>
                 <li>Mobile Friendly</li>
              </ul>",
+        'github' => 'https://github.com/jean8mathieu/SoulFX',
         'link' => 'http://www.jmdev.ca/soulfx'],
     [
         'title' => 'Address To Long & Lat',
@@ -47,6 +60,7 @@ $data = array(
                 <li>View the JSON / XML information returned by each API</li>
                 <li>Website is fully dynamic</li>
              </ul>",
+        'github' => '',
         'link' => 'http://www.jmdev.ca/postalcode'],
     [
         'title' => 'Live Chat',
@@ -58,25 +72,26 @@ $data = array(
                 <li>Encoding / Decoding using Javascript</li>
                 <li>Communication between Server and Client</li>
              </ul>",
+        'github' => '',
         'link' => 'http://www.jmdev.ca/chat/'],
-    /*[
+    [
         'title' => 'ASheriff Technical Solutions INC',
         'sub_title' => 'Wordpress' ,
         'picture' => 'img/asheriff.PNG',
         'description' =>
             "<ul>
                 <li>Created a website using Wordpress</li>
-                <li>Maintaining of the website</li>
+                <li>Maintaining the website</li>
              </ul>",
-        'link' => 'http://asherifftechnicalsolutionsinc.ca/'],*/
-    /*[
+        'link' => 'http://asherifftechnicalsolutionsinc.ca/'],
+    [
         'title' => 'IMTGROUP',
         'sub_title' => 'Wordpress' ,
         'picture' => 'img/imt.PNG',
         'description' =>
             "<ul>
                 <li>Created a website using Wordpress</li>
-                <li>Maintaining of the website</li>
+                <li>Maintaining the website</li>
              </ul>",
         'link' => 'http://www.imtgroup.ca/'],
     [
@@ -86,9 +101,9 @@ $data = array(
         'description' =>
             "<ul>
                 <li>Created a website using Wordpress</li>
-                <li>Maintaining of the website</li>
+                <li>Maintaining the website</li>
              </ul>",
-        'link' => 'http://e-ip.ca/'],*/
+        'link' => 'http://e-ip.ca/'],
     [
         'title' => 'Sheridan Coding',
         'sub_title' => 'HTML, CSS, JQuery, MySQL, Facebook API and PHP' ,
@@ -106,6 +121,7 @@ $data = array(
                 <li>Views Tracker</li>
                 <li>And much more!</li>
              </ul>",
+        'github' => 'https://github.com/jean8mathieu/SheridanCoding',
         'link' => 'https://www.jmdev.ca/sheridan'],
 
     [
@@ -129,6 +145,7 @@ $data = array(
                 <li>Receive the notifications on time</li>
                 <li>Dynamic Page using JQuery</li>
              </ul>",
+        'github' => '',
         'link' => 'https://www.jmdev.ca/task2text'],
     [
         'title' => 'URL Shortner',
@@ -140,6 +157,7 @@ $data = array(
                 <li>Dynamic Page</li>
                 <li>Fast Redirection</li>
              </ul>",
+        'github' => 'https://github.com/jean8mathieu/UrlShortner',
         'link' => 'https://www.jmdev.ca/url'],
 
     [
@@ -151,6 +169,7 @@ $data = array(
                 <li>Format a JSON to be easier to read</li>
                 <li>Dynamic Page</li>
              </ul>",
+        'github' => '',
         'link' => 'https://www.jmdev.ca/json'],
     [
         'title' => 'Tracking System',
@@ -160,6 +179,7 @@ $data = array(
             "<ul>
                 <li>Sent your Latitude and Longitude and your friend see it on the Map</li>
              </ul>",
+        'github' => '',
         'link' => ''],
     [
         'title' => 'Text To Voice',
@@ -181,6 +201,7 @@ $data = array(
                 <li>Forum Signature Generated Dynamicly depending on the rank of the person</li>
                 <li>Timesheet System</li>
              </ul>",
+        'github' => '',
         'link' => ''],
     [
         'title' => '1CPB',
@@ -191,5 +212,6 @@ $data = array(
                 <li>Automated Squad.xml</li>
                 <li>Dynamic gear setup for each group</li>
              </ul>",
+        'github' => '',
         'link' => ''],
 );
